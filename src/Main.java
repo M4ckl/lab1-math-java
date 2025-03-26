@@ -1,12 +1,12 @@
 import static java.lang.Math.*;
 public class Main {
     public static void main(String[] args){
-        System.out.println("Романюк Михаил,Р3122\n" + "Вариант №312209");
+        System.out.println("Ramaniuk Mikhail,Р3122\n" + "Wariant №312209");
 
         //Задание 1
         short d = 5;
         short[] a = new short[10];
-        System.out.println("1.Создаем одномерный массив a типа short.Заполняем его нечетными числами от 5 до 23 включительно.");
+        System.out.println("1. Create a one-dimensional array a of type short. Fill it with odd numbers from 5 to 23 inclusive.");
         for(int i = 0;i < a.length; i++){
             a[i]=d;
             d+=2;
@@ -17,7 +17,7 @@ public class Main {
         float[] x = new float[20];
         float min_t = -2.0f;
         float max_t = 3.0f;
-        System.out.println("\n2.Создаем одномерный массив x типа float.Заполняем его 20-ю случайными числами от -2.0 до 12.0");
+        System.out.println("\n2.Creating a one-dimensional x float type array.We fill it with 20 random numbers from -2.0 to 12.0");
         for(int i = 0;i < x.length;i++) {
             x[i]=(float) (random()*(max_t-min_t))+min_t;
             if (i % (x.length/4) == 0) {
@@ -27,7 +27,7 @@ public class Main {
         }
 
         //Задание 3
-        System.out.println("\n3.Создаем двумерный массив a_1 размерами 10*20.");
+        System.out.println("\n3.Creating a two-dimensional array a_1 with dimensions of 10*20.");
         float[][] a_1 = new float[10][20];
         for(int i =0;i < a.length;i++){
             for(int j = 0;j < x.length;j++){
