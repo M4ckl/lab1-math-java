@@ -21,3 +21,7 @@ Write a Java program that performs the actions specified in the given task.
 - The program must be packaged into an executable JAR archive.
 
 - The program's execution must be demonstrated on the helios server.
+
+CONSOLE
+
+<img width="1315" alt="Zrzut ekranu 2025-03-26 o 10 07 44" src="https://github.com/user-attachments/assets/0423288d-6f21-40fa-bdb3-47270ee4708a" />
